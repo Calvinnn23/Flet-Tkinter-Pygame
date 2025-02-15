@@ -23,7 +23,7 @@ def mostrar_guiones(palabra):
 
 # * Mostrar imagenes
 def mostrar_imagenes():
-    ruta = os.path.join(os.path.dirname(__file__), "images")
+    ruta = os.path.join(os.path.dirname(__file__), "assets")
     imagenes = [
         os.path.join(ruta, img) for img in os.listdir(ruta) if img.endswith(".png")
     ]
